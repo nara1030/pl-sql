@@ -6,9 +6,9 @@ PL/SQL Basic Study
  2. Pseudo-column in Oracle
  3. Analytic function in Oracle
  4. Additional  
-   &nbsp;&nbsp;&nbsp;&nbsp; 4-1. Pivot  
-   &nbsp;&nbsp;&nbsp;&nbsp; 4-2. Cross-join(Self-join)  
-   &nbsp;&nbsp;&nbsp;&nbsp; 4-3. Hierarchy(Tree)  
+   &nbsp;&nbsp; 4-1. Pivot  
+   &nbsp;&nbsp; 4-2. Cross-join(Self-join)  
+   &nbsp;&nbsp; 4-3. Hierarchy(Tree)  
 
 ## Reference
  * http://www.gurubee.net/lecture/2150
