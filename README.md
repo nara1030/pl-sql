@@ -5,7 +5,7 @@ PL/SQL Basic Study
  1. Row-oriented Database
  2. Pseudo-column in Oracle
  3. Analytic function in Oracle
- 4. Additional
+ 4. Additional  
    &nbsp;&nbsp;&nbsp;&nbsp; 4-1. Pivot  
    &nbsp;&nbsp;&nbsp;&nbsp; 4-2. Cross-join(Self-join)  
    &nbsp;&nbsp;&nbsp;&nbsp; 4-3. Hierarchy(Tree)  
