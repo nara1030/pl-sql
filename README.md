@@ -1,18 +1,18 @@
 PL/SQL Basic Study
 =============
 
-## Study List
+## 목차
  1. Row-oriented Database
  2. Pseudo-column in Oracle
  3. Analytic function in Oracle
  4. Additional  
-   &nbsp;&nbsp; 4-1. Pivot  
-   &nbsp;&nbsp; 4-2. Cross-join(Self-join)  
-   &nbsp;&nbsp; 4-3. Hierarchy(Tree)  
+   &nbsp; 4-1. Pivot  
+   &nbsp; 4-2. Cross-join(Self-join)  
+   &nbsp; 4-3. Hierarchy(Tree)  
 
-## Reference
- * http://www.gurubee.net/lecture/2150
- * https://github.com/gilbutitbook/006696
+## 링크
+ * [Gurubee - Oracle SQL 강좌](http://www.gurubee.net/lecture/2150)
+ * [오라클 SQL과 PL/SQL을 다루는 기술](https://github.com/gilbutitbook/006696)
 
-## Document
+## 문서
  * File to be uploaded
