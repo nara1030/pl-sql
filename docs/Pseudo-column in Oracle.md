@@ -11,21 +11,21 @@ Pseudo-column in Oracle
 > A Pseudo-column behaves like a table column but is not actually stored in the table.  
 > You can select from pseudo-columns, but you cannot insert, update, or delete their values.
 
-## 1. ## ROWNUM
+## ROWNUM
 .
 
 ### cf. ROW_NUMBER()  
 > A pseudo-column is also similar to a function without arguments.  
 
 
-## 2. ## ROWID
+## ROWID
 .
 
-## 3. ## CURRVAL and NEXTVAL
+## CURRVAL and NEXTVAL
 .
 
-## 4. ## LEVEL
+## LEVEL
 .
 
-## 5. ## 참고문서
+## 참고문서
 + [Pseudocolumn in Oracle SQL](https://www.geeksforgeeks.org/pseudocolumn-oracle-sql/)
