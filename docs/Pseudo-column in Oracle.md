@@ -8,18 +8,18 @@ Pseudo-column in Oracle
 4. [LEVEL](#section-04)
 5. [참고문서](#section-05)
 
-## 1. (#section-01)
+## 1. ROWNUM
 SDF
 SDFSDF
 
-## 2. <a name="#section-02"></a>
+## 2. ROWID
 FDF
 
-## 3. <a name="section-03"></a>
+## 3. CURRVAL and NEXTVAL
 DFS
 
-## 4. <a name="section-04"></a>
+## 4. LEVEL
 SDF
 
-## 5. <a name="section-05"></a>
+## 5. 참고문서
 + [Pseudocolumn in Oracle SQL](https://www.geeksforgeeks.org/pseudocolumn-oracle-sql/)
