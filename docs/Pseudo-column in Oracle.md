@@ -8,7 +8,7 @@ Pseudo-column in Oracle
 4. [LEVEL](#section-04)
 5. [참고문서](#section-05)
 
-## 1. #section-01
+## 1. (#section-01)
 SDF
 SDFSDF
 
