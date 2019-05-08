@@ -1,12 +1,12 @@
 Pseudo-column in Oracle
 =======================
 
-## ¸ñÂ÷
+## ëª©ì°¨
 1. [ROWNUM](#section-01)
 2. [ROWID](#section-02)
 3. [CURRVAL and NEXTVAL](#section-03)
 4. [LEVEL](#section-04)
-5. [Âü°í¹®¼­](#section-05)
+5. [ì°¸ê³ ë¬¸ì„œ](#section-05)
 
 > A Pseudo-column behaves like a table column but is not actually stored in the table.  
 > You can select from pseudo-columns, but you cannot insert, update, or delete their values.
@@ -27,5 +27,5 @@ DFS
 ## 4. LEVEL<a id="section-04"></a>
 SDF
 
-## 5. Âü°í¹®¼­<a id="section-05"></a>
+## 5. ì°¸ê³ ë¬¸ì„œ<a id="section-05"></a>
 + [Pseudocolumn in Oracle SQL](https://www.geeksforgeeks.org/pseudocolumn-oracle-sql/)
