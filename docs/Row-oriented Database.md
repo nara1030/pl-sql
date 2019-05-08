@@ -15,7 +15,7 @@ OLTP | OLAP
 >> 컬럼 지향 DB는 동일한 블록에 후속 열의 값을 저장한다
 
 ## 참고문헌
-*[DBMS|Row oriented vs. column oriented data stores](https://www.geeksforgeeks.org/dbms-row-oriented-vs-column-oriented-data-stores/)
-*[Rowise vs. Columnar Database? Theory and in Practice](https://medium.com/@mangatmodi/rowise-vs-columnar-database-theory-and-in-practice-53f54c8f6505)
-*[Oracle|Question](https://asktom.oracle.com/pls/asktom/f?p=100:11:0::::P11_QUESTION_ID:9530427800346499360)
-*[Wiki](https://en.wikipedia.org/wiki/Column-oriented_DBMS)
++ [DBMS|Row oriented vs. column oriented data stores](https://www.geeksforgeeks.org/dbms-row-oriented-vs-column-oriented-data-stores/)
++ [Rowise vs. Columnar Database? Theory and in Practice](https://medium.com/@mangatmodi/rowise-vs-columnar-database-theory-and-in-practice-53f54c8f6505)
++ [Oracle|Question](https://asktom.oracle.com/pls/asktom/f?p=100:11:0::::P11_QUESTION_ID:9530427800346499360)
++ [Wiki](https://en.wikipedia.org/wiki/Column-oriented_DBMS)
