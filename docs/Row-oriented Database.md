@@ -7,7 +7,7 @@ Row-oriented Database
 Row oriented | Column oriented
 ------------ | ---------------
 읽기/쓰기 빠름 | 읽기/쓰기 (행 지향에 비해) 느림
-OLTP | OLAP
+OLTP(운영계) | OLAP(분석계)
 조회 느림(불필요한 데이터 조회) | 조회 빠름
 
 > The major difference in both the datastores lies in the way they physically store the data on the disk.
