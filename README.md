@@ -8,7 +8,7 @@ PL/SQL Basic Study
  4. Additional  
    &nbsp; 4-1. Pivot  
    &nbsp; 4-2. Cross-join(Self-join)  
-   &nbsp; 4-3. Hierarchy(Tree)  
+   &nbsp; 4-3. [Hierarchy(Tree)](https://github.com/nara1030/pl-sql/blob/master/docs/Hierarchy_Tree.md)
 
 ## ¸µÅ©
  * [Gurubee - Oracle SQL °­ÁÂ](http://www.gurubee.net/lecture/2150)
