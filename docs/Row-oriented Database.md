@@ -8,8 +8,24 @@ SQL의 핵심인 GROUPING, 즉 집계를 잘 이해하기 위해서 이 기본 특성을 제대로 이해하
 3. [참고문헌](#참고문헌)
 
 ## 비교
-> Oracle Database is a row format database.
+> Oracle Database is a row format database.  
 
+[아래와 같이](http://www.gurubee.net/lecture/1028) 하나의 칼럼(`sal`)에 대해 서로 다른 집계함수를 사용(`READ`)할 수 있는 이유는 행 지향 데이터베이스이기 때문이라고 생각한다(**열 지향 확인 필요**).  
+
+* 쿼리  
+	```sql
+	SELECT deptno
+		, DECODE(deptno, 10, SUM(sal)
+					   , 20, MAX(sal)
+					   , 30, MIN(sal)) sal
+	FROM emp
+	GROUP BY deptno;
+	```
+* 실행결과  
+	<img src="../img/different_grouping.png" width="200" height="100"> 
+
+본론으로 들어가서 행 지향과 열 지향의 특징을 비교해본다.  
+	
 Row oriented | Column oriented
 ------------ | ---------------
 읽기/쓰기 빠름 | 읽기/쓰기 (행 지향에 비해) 느림
@@ -17,7 +33,7 @@ OLTP(운영계) | OLAP(분석계)
 조회 느림(불필요한 데이터 조회) | 조회 빠름
 
 * The major difference in both the datastores lies in the way they physically store the data on the disk.
-	* 행 지향 DB는 동일한 `블록`에 전체 행을 저장하려고 시도하지만  
+	* 행 지향 DB는 동일한 `블록`에 전체 행을 저장(`WRITE`)하려고 시도하지만  
 	* 컬럼 지향 DB는 동일한 블록에 후속 열의 값을 저장한다
 
 ##### [목차로 이동](#목차)
