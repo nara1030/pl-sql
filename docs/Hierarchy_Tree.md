@@ -60,17 +60,17 @@
 	* CONNECT BY
 		* 계층 질의에서 상위계층(부모 `행`)과 하위계층(자식 `행`)의 관계 규정
 		* [PRIOR 연산자](#PRIOR-연산자)와 함께 사용
-			* CONNECT BY PRIOR 자식컬럼 = 부모컬럼: 부모에서 자식으로 트리구성(Top Down)
-			* CONNECT BY PRIOR 부모컬럼 = 자식컬럼: 자식에서 부모로 트리구성(Bottom Up)
+			* `CONNECT BY PRIOR 자식컬럼 = 부모컬럼`: 부모에서 자식으로 트리구성(Top Down)
+			* `CONNECT BY PRIOR 부모컬럼 = 자식컬럼`: 자식에서 부모로 트리구성(Bottom Up)
 	* LEVEL Pseudocolumn
 		* 계층구조 쿼리에서 수행결과의 Depth를 표현하는 의사컬럼
 		* [CONNECT BY LEVEL](#CONNECT-BY-LEVEL)
 	* ORDER SIBLINGS BY
 		* 계층구조 쿼리에서 편하게 정렬작업 가능하게 함
 * 실행순서
-	* `첫째.` START WITH 절
-	* `둘째.` CONNECT BY 절
-	* `셋째.` WHERE 절
+	* 첫째. `START WITH` 절
+	* 둘째. `CONNECT BY` 절
+	* 셋째. `WHERE` 절
 	
 ##### [목차로 이동](#목차)
 
@@ -98,8 +98,17 @@
 
 #### CONNECT BY LEVEL
 
+* 쿼리문  
+	```sql
+	SELECT LEVEL
+	FROM dual
+	CONNECT BY LEVEL <= 5;
+	```
+* 실행결과  
+	<img src="../img/connect_by_1.png" width="200" height="100">
 
-
+[CONNECT BY LEVEL](http://wiki.gurubee.net/pages/viewpage.action?pageId=27427825) 구문에 원리와 활용에 대해서는 더 공부해야 한다.
+	
 ##### [목차로 이동](#목차)
 
 ## 레퍼런스
