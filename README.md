@@ -1,5 +1,7 @@
 PL/SQL Basic Study
 =============
+책을 인용한 부분이 있지만 다른 자료를 공부하며 임의적으로 작성한 부분이 많다.
+- - - -
 
 ## 목차
  1. [Row-oriented Database](https://github.com/nara1030/pl-sql/blob/master/docs/Row-oriented%20Database.md)
