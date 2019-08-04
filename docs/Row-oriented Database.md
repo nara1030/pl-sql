@@ -16,8 +16,8 @@ SQL의 핵심인 GROUPING, 즉 집계를 잘 이해하기 위해서 이 기본 특성을 제대로 이해하
 	```sql
 	SELECT deptno
 		, DECODE(deptno, 10, SUM(sal)
-			      , 20, MAX(sal)
-			      , 30, MIN(sal)) sal
+			       , 20, MAX(sal)
+			       , 30, MIN(sal)) sal
 	FROM emp
 	GROUP BY deptno;
 	```
